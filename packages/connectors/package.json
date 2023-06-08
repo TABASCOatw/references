@@ -2,7 +2,7 @@
   "name": "@wagmi/connectors",
   "description": "A collection of connectors for wagmi",
   "license": "MIT",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "scripts": {
     "build": "tsup",
     "dev": "DEV=true tsup"
@@ -10,7 +10,7 @@
   "peerDependencies": {
     "@wagmi/chains": ">=1.0.0",
     "typescript": ">=5.0.4",
-    "viem": "~0.3.35"
+    "viem": ">=0.3.35"
   },
   "peerDependenciesMeta": {
     "@wagmi/chains": {
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@wagmi/chains": "workspace:*",
-    "viem": "0.3.35"
+    "viem": "^1.0.0"
   },
   "type": "module",
   "main": "dist/index.js",
