@@ -10,6 +10,10 @@ export const avalanche = {
     symbol: 'AVAX',
   },
   rpcUrls: {
+    chainstack: {
+      http: ['https://avalanche-mainnet.core.chainstack.com/'],
+      webSocket: ['wss://avalanche-mainnet.core.chainstack.com/ws/'],
+    },
     default: { http: ['https://api.avax.network/ext/bc/C/rpc'] },
     public: { http: ['https://api.avax.network/ext/bc/C/rpc'] },
   },
