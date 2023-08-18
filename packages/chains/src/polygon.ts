@@ -14,6 +14,10 @@ export const polygon = {
       http: ['https://polygon-mainnet.infura.io/v3'],
       webSocket: ['wss://polygon-mainnet.infura.io/ws/v3'],
     },
+    chainstack: {
+      http: ['https://polygon-mainnet.core.chainstack.com/'],
+      webSocket: ['wss://polygon-mainnet.core.chainstack.com/ws/'],
+    },
     default: {
       http: ['https://polygon-rpc.com'],
     },
