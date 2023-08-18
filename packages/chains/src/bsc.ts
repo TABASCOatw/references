@@ -10,6 +10,10 @@ export const bsc = {
     symbol: 'BNB',
   },
   rpcUrls: {
+    chainstack: {
+      http: ['https://bsc-mainnet.core.chainstack.com/'],
+      webSocket: ['wss://bsc-mainnet.core.chainstack.com/ws/'],
+    },
     default: { http: ['https://rpc.ankr.com/bsc'] },
     public: { http: ['https://rpc.ankr.com/bsc'] },
   },
