@@ -10,6 +10,10 @@ export const fantom = {
     symbol: 'FTM',
   },
   rpcUrls: {
+    chainstack: {
+      http: ['https://fantom-mainnet.core.chainstack.com/'],
+      webSocket: ['wss://fantom-mainnet.core.chainstack.com/ws/'],
+    },
     default: { http: ['https://rpc.ankr.com/fantom'] },
     public: { http: ['https://rpc.ankr.com/fantom'] },
   },
