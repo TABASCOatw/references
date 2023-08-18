@@ -14,6 +14,10 @@ export const arbitrum = {
       http: ['https://arbitrum-mainnet.infura.io/v3'],
       webSocket: ['wss://arbitrum-mainnet.infura.io/ws/v3'],
     },
+    chainstack: {
+      http: ['https://arbitrum-mainnet.core.chainstack.com/'],
+      webSocket: ['wss://arbitrum-mainnet.core.chainstack.com/ws/'],
+    },
     default: {
       http: ['https://arb1.arbitrum.io/rpc'],
     },
